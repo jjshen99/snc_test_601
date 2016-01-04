@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sla" label="t3" max_length="40" name="x_snc_app_4jan_t3" type="collection"/>
+</database>

@@ -3,7 +3,8 @@
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>true</is_fulfillment>
         <name>x_snc_app_4jan_t1</name>
-        <owner_condition table="x_snc_app_4jan_t1">opened_by=javascript:gs.getUserID()^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <owner_condition table="x_snc_app_4jan_t1">opened_by=javascript:gs.getUserID()^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>jj</sys_created_by>

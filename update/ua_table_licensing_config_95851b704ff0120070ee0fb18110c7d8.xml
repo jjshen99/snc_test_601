@@ -3,7 +3,8 @@
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
         <name>x_snc_app_4jan_t3</name>
-        <owner_condition table="x_snc_app_4jan_t3">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <owner_condition table="x_snc_app_4jan_t3">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>jj</sys_created_by>
