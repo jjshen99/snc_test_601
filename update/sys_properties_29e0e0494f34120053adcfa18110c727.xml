@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Instance ID</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>true</is_private>
+        <name>instance_id</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2016-01-05 01:25:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29e0e0494f34120053adcfa18110c727</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>instance_id</sys_name>
+        <sys_package display_value="App_4Jan" source="x_snc_app_4jan">27f6077c4fb0120053adcfa18110c78b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="App_4Jan">27f6077c4fb0120053adcfa18110c78b</sys_scope>
+        <sys_update_name>sys_properties_29e0e0494f34120053adcfa18110c727</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-01-05 01:53:28</sys_updated_on>
+        <type>string</type>
+        <value>c8e118696f5f02004c327b2f5d3ee46f</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=29e0e0494f34120053adcfa18110c727"/>
+</record_update>
